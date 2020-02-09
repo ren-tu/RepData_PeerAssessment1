@@ -54,7 +54,7 @@ hist(df_steps$total_steps,
      xlab="Total Daily Steps", col="blue")
 ```
 
-![](PA1_Template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](unnamed-chunk-3-1.png)<!-- -->
 
 Here is the mean total daily steps
 
