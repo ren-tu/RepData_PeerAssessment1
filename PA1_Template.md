@@ -90,7 +90,7 @@ plot(df_intervals$interval, df_intervals$mean_steps, type="l",
      xlab="Intervals", ylab="Mean Steps")
 ```
 
-![](PA1_Template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](unnamed-chunk-6-1.png)<!-- -->
 
 Here is the 5-minute interval that on average contains the max number of steps
 
@@ -144,7 +144,7 @@ hist(df_steps_clean$total_steps,
      xlab="Total Daily Steps", col="blue")
 ```
 
-![](PA1_Template_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](unnamed-chunk-11-1.png)<!-- -->
 
 Here is the new mean total daily steps
 
@@ -197,4 +197,4 @@ xyplot(mean_steps ~ interval | day_of_week, type="l", data=df_intervals_clean, l
        xlab="Intervals", ylab="Mean Steps")
 ```
 
-![](PA1_Template_files/figure-html/unnamed-chunk-15-1.png)<!-- -->
+![](unnamed-chunk-15-1.png)<!-- -->
